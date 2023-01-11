@@ -1,0 +1,16 @@
+ {
+      "category" : "energy",
+      "description" : "Spot price fetcher for SE1-4 from the energy market.",
+      "name" : "Spot price fetcher",
+      "public" : true,
+      "publisher" : {
+         "id" : 1
+      },
+      "short_description" : "Spot price fetcher for SE1-4",
+      "source_url" : "https://github.com/mrejas/edge-app-spot-prices-se",
+      "tags" : [
+		  "energy",
+		  "spot price"
+      ]
+   }
+

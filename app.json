@@ -1,0 +1,51 @@
+{
+  "author": "IoT Open",
+  "licence": "MIT",
+  "input": {
+	  "SE1": {
+		  "required": true,
+		  "name": "Include SE1",
+		  "description": "Include SE1 - Luleå",
+		  "type": "toggle",
+		  "true_value": "yes",
+		  "false_value": "no"
+	  },
+	  "SE2": {
+		  "required": true,
+		  "name": "Include SE2",
+		  "description": "Include SE2 - Sundsvall",
+		  "type": "toggle",
+		  "true_value": "yes",
+		  "false_value": "no"
+	  },
+	  "SE3": {
+		  "required": true,
+		  "name": "Include SE3",
+		  "description": "Include SE3 - Stockholm",
+		  "type": "toggle",
+		  "true_value": "yes",
+		  "false_value": "no"
+	  },
+	  "SE4": {
+		  "required": true,
+		  "name": "Include SE4",
+		  "description": "Include SE4 - Malmö",
+		  "type": "toggle",
+		  "true_value": "yes",
+		  "false_value": "no"
+	  }
+  },
+  "guide": [
+    {
+      "id": "stage_1",
+      "title": "Choose what area to include",
+      "description": "Choose what area to include. You may choose more than one.",
+      "input_fields": [
+		  "SE1",
+		  "SE2",
+		  "SE3",
+		  "SE4"
+      ]
+    }
+  ]
+}
