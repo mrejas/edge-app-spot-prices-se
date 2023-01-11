@@ -48,7 +48,7 @@ function create_function_if_needed(area, device)
 			type = "spot price",
 			installation_id = app.installation_id,
 			meta = {
-				name = "Spot proice - " .. area,
+				name = "Spot price - " .. area,
 				spot_market_area = area,
 				device_id = tostring(device),
 				unit = "SEK/kWh",
@@ -72,7 +72,7 @@ function setup_device(device)
 			type = "spotprices",
 			installation_id = app.installation_id,
 			meta = {
-				name = "Spotpriser",
+				name = "Spotprices",
 				device_type = "Spotprice electricity",
 				credits = "mgrey.se"
 			}
