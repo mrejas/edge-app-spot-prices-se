@@ -56,9 +56,8 @@ function create_function_if_needed(area, device)
 				topic_read = "obj/spot/" .. area .. "/sek" 
 			}
 		}
-	end
-
 	lynx.createFunction(fn)
+	end
 end
 
 function setup_device(device) 
@@ -167,7 +166,6 @@ function fetchAndSend(date)
 	else
 		print("Skipping: SE4")
 	end
-
 end
 
 function sendData()
